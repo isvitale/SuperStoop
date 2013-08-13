@@ -1,0 +1,284 @@
+
+
+/* ==========================================================================
+   SuperStoop's custom styles
+   ========================================================================== */
+
+body{
+	background: #000 url(../img/bg.png) repeat;
+}
+
+.brand{
+	background: url(../img/logo.png) no-repeat;
+	width:325px;
+	height:76px;
+	text-indent:-99999px;
+}
+
+.carousel-inner{
+	padding:50px 5px;
+	background-color: #FFF;
+	border:1px solid #c0b8b4;
+	min-height:200px;
+}
+
+.btn{
+	float:right;
+}
+
+table{
+text-align:center;
+}
+
+a#searchZip, a#postStoop{
+line-height: 2.4em;
+float:right;
+width:80px;
+text-align:center;
+text-decoration:none;
+}
+
+a:link#searchZip, a:visited#searchZip {
+color:#000;
+background: #e8e8e8;
+text-shadow: 0 1px 0 white;
+}
+
+a:hover#searchZip, a:active#searchZip {
+color:#000;
+background: #ececec;
+}
+
+a:link#postStoop, a:visited#postStoop {
+color:#FFF;
+background: #54a854;
+text-shadow: 0 1px 0 grey;
+}
+
+a:hover#postStoop, a:active#postStoop {
+color:#FFF;
+background: #64cb64;
+}
+
+.box-holder{
+	float:left;
+	width:80%;
+	padding:20px 10px;
+	border:1px solid #c0b8b4;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.box-holder p a{
+	float:left;
+	font-size:.9em;
+}
+
+#register{
+	display:block;
+	float:right;
+	margin:20px 20px 10px 10px;
+	clear:both;
+	color:#F60;
+	text-decoration:underline;
+}
+
+.box-holder input{
+height: 30px;
+}
+
+.box-holder .navbar-search, .box-holder form{
+margin:0px;
+}
+
+@media (min-width: 1200px){
+
+	.mainPage .span4 {
+		width: 300px;
+		padding-right: 70px;
+	}
+	
+	input{
+		padding: 4px 2%;
+		width: 95%;	
+	}
+	.btn{width:80px;}
+
+	footer p{
+		float:right;
+		margin-top:30px;
+	}
+	
+	.bday{width:80px;}
+	
+}/*@media (min-width: 1200px) ends*/
+
+
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle{
+	background:none;
+	color: #555;
+}
+
+.searchBox .form-horizontal{
+	padding:20px 0px;
+}
+
+.searchBox .form-horizontal .control-label {
+width: 140px;
+}
+
+.searchBox .form-horizontal .controls {
+margin-left: 160px;
+margin-right: 20px;
+}
+
+.search .span4{	padding: 0px; }
+
+.search .span4 h4{
+	background: #8a5b25;
+	color: white;
+	margin:0px;
+	line-height:2em;
+	font-family: Helvetica, Verdana;
+	font-size: 1em;
+	padding-left: 10px;
+}
+
+#map{
+	width:100%;
+	height:320px;
+	background:#CCC;
+}
+
+.stoopSale{
+	position:relative;
+	margin-bottom:20px;
+	padding-left:90px;
+	border:1px dotted #CCC;
+}
+
+.stoopSale a.posSearch{
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:inline-block;
+	width:70px;
+	line-height:70px;	
+	font-size:3em;
+	text-align:center;
+	background: #E6DFD1;
+}
+
+.stoopSale .dl-horizontal dt {
+	width: 90px;
+}
+
+.stoopSale .dl-horizontal dd {
+	margin-left: 100px;
+}
+
+a.addMyList{
+	text-align:center;
+	display:block;
+	width:70px;
+	line-height:20px;
+	position:absolute;
+	top:70px;
+	left:0px;
+	background:#FFF;
+	
+}
+
+
+.search .nav-collapse.collapse {
+margin-top: 20px;
+}
+
+.nav > li > a {
+display: inline;
+}
+
+.form-horizontal .control-label {
+	width: 70px;
+}
+
+.form-horizontal .controls {
+margin-left: 90px;
+}
+
+#datepicker{
+	background:url(../img/cal.png) right center no-repeat;
+}
+
+.dateIn{
+	float:left;
+}
+
+#alternate {
+width:260px;
+background: none;
+border: none;
+display: inline-block;
+box-shadow: none;
+}
+
+/*index form validation message*/
+.success {
+	color: #060;
+	display: block;
+	float: left;
+	background: #D0FDC2;
+	width: 100%;
+	text-align: center;
+	line-height: 2em;
+	margin-top: 10px;
+}
+.error {
+	color: red;
+	display: block;
+	float: left;
+	background: #FFD3D3;
+	width: 100%;
+	text-align: center;
+	line-height: 2em;
+	margin-top: 10px;
+}
+.warning {
+	color: #DA1515;
+	display: block;
+	float: left;
+	background: #FFFFAE;
+	width: 100%;
+	text-align: center;
+	line-height: 2em;
+	margin-top: 10px;
+}
+
+#map_canvas{
+	width:770px;
+	height:320px;
+}
+
+
+
+
+/********************  Ivan Style ********************************/
+			.register .secondBox{
+				border-right: 1px dotted #C0B8B4;
+				border-left: 1px dotted #C0B8B4;
+				margin-left: 0px;
+				padding-left: 30px;
+			}
+			.firstBox.span4 {
+			width: 300px;
+			}
+			textarea{
+				resize: none;
+				width: 95%;
+				height: 200px;
+			}
+
+/*******************************************************************/
+
+

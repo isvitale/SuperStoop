@@ -1,0 +1,18 @@
+new items:
+
+	admin_display_stoopsales.php
+	admin_display_users.php
+	adminpanel.php
+	update_addressuifo.php
+	update_personalinfo.php
+	updateuser.php
+	usersettings.php
+
+modified items:
+
+	contact.php
+	doLogin.php
+	index.php
+	process.php
+	register.php
+

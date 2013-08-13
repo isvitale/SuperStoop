@@ -1,0 +1,30 @@
+mysql> DESC members;
++-----------+--------------+------+-----+---------+----------------+
+| Field     | Type         | Null | Key | Default | Extra          |
++-----------+--------------+------+-----+---------+----------------+
+| personID  | int(11)      | NO   | PRI | NULL    | auto_increment |
+| firstName | varchar(30)  | YES  |     | NULL    |                |
+| lastName  | varchar(30)  | YES  |     | NULL    |                |
+| theMonth  | int(11)      | YES  |     | NULL    |                |
+| theDay    | int(11)      | YES  |     | NULL    |                |
+| theYear   | int(11)      | YES  |     | NULL    |                |
+| theGender | tinyint(1)   | YES  |     | NULL    |                |
+| theEmail  | varchar(100) | YES  |     | NULL    |                |
++-----------+--------------+------+-----+---------+----------------+
+8 rows in set (0.00 sec)
+
+
+
+
+mysql> DESC address;
++------------+--------------+------+-----+---------+----------------+
+| Field      | Type         | Null | Key | Default | Extra          |
++------------+--------------+------+-----+---------+----------------+
+| id         | int(11)      | NO   | PRI | NULL    | auto_increment |
+| personID   | int(11)      | YES  |     | NULL    |                |
+| theAddress | varchar(255) | YES  |     | NULL    |                |
+| theCity    | varchar(50)  | YES  |     | NULL    |                |
+| theState   | varchar(2)   | YES  |     | NULL    |                |
+| theZip     | int(5)       | YES  |     | NULL    |                |
++------------+--------------+------+-----+---------+----------------+
+6 rows in set (0.00 sec)
